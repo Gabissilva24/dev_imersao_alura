@@ -295,11 +295,19 @@ body {
     }
 
     .botao-resposta {
-        font-size: 0.9em;
-        padding: 6px;
+        font-size: 0.85em; /* Reduzindo um pouco mais a fonte */
+        padding: 8px 6px; /* Ajustando o padding vertical e horizontal */
     }
 
     .fim span {
         font-size: 1em;
+    }
+}
+
+/* Para telas ainda menores */
+@media (max-width: 320px) {
+    .botao-resposta {
+        font-size: 0.8em;
+        padding: 6px 4px;
     }
 }
