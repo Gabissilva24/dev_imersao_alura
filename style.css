@@ -217,3 +217,89 @@ body {
     font-weight: 600;
     color: white;
   }
+
+  /* Media Queries para telas menores */
+
+/* Para tablets (largura máxima de 768px) */
+@media (max-width: 768px) {
+    body {
+        margin: 15px;
+    }
+
+    .logo {
+        text-align: center; /* Centralizando o logo em tablets */
+    }
+
+    .logo img {
+        width: 60%;
+    }
+
+    .conteudo-jogo {
+        margin: 20px;
+        padding: 15px;
+        min-height: auto; /* Removendo a altura mínima para melhor adaptação */
+    }
+
+    .questionario {
+        width: 90%;
+        max-width: none; /* Removendo a largura máxima em tablets */
+    }
+
+    .pergunta {
+        font-size: 1.1em;
+    }
+
+    .respostas {
+        gap: 8px;
+    }
+
+    .botao-resposta {
+        font-size: 0.95em;
+        padding: 8px;
+    }
+
+    .fim span {
+        font-size: 1.1em;
+    }
+}
+
+/* Para smartphones (largura máxima de 480px) */
+@media (max-width: 480px) {
+    body {
+        margin: 10px;
+    }
+
+    .logo {
+        text-align: center;
+    }
+
+    .logo img {
+        width: 80%;
+    }
+
+    .conteudo-jogo {
+        margin: 15px;
+        padding: 10px;
+    }
+
+    .questionario {
+        width: 95%;
+    }
+
+    .pergunta {
+        font-size: 1em;
+    }
+
+    .respostas {
+        gap: 6px;
+    }
+
+    .botao-resposta {
+        font-size: 0.9em;
+        padding: 6px;
+    }
+
+    .fim span {
+        font-size: 1em;
+    }
+}
