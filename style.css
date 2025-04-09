@@ -230,16 +230,14 @@ body {
     
     .conteudo-jogo {
     
-    margin: 15px; /* Reduza as margens */
+    margin: 15px; 
     
     }
 
     .botao-resposta {
-        font-size: 0.8rem; /* Ou o tamanho que você definiu */
+        font-size: 0.8rem; 
         padding: 15px;
         height: auto;
       }
-    
-    /* ... outros estilos da media query ... */
     
     }
